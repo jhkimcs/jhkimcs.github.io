@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeongheon Kim</title>
+<style>
+  :root {
+    --text: #1c1c1e;
+    --muted: #6b6b70;
+    --accent: #2b4d9b;
+    --border: #e4e4e7;
+    --bg: #fdfdfc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", "Noto Sans KR", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.65;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header.hero {
+    margin-bottom: 48px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+  .name-kr {
+    font-size: 1.1rem;
+    color: var(--muted);
+    font-weight: 400;
+    margin: 0 0 16px;
+  }
+  .affiliation {
+    font-size: 0.98rem;
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+  .contact {
+    font-size: 0.95rem;
+    margin-top: 12px;
+  }
+  .contact a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tag {
+    font-size: 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px 12px;
+    color: var(--text);
+  }
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .entry .what {
+    flex: 1;
+  }
+  .entry .when {
+    color: var(--muted);
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding-top: 2px;
+  }
+  .entry .what strong {
+    display: block;
+  }
+  .entry .what span {
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  ul.plain {
+    margin: 0;
+    padding-left: 20px;
+  }
+  ul.plain li {
+    margin-bottom: 6px;
+  }
+  .placeholder {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.92rem;
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <header class="hero">
+      <h1>Jeongheon Kim</h1>
+      <p class="name-kr">김정헌</p>
+      <p class="affiliation">M.S. Student, Dependable Computing Lab</p>
+      <p class="affiliation">Dept. of Computer Science &amp; Engineering, Yonsei University</p>
+      <div class="contact">
+        <a href="mailto:jeongheon.kim.cs@yonsei.ac.kr">jeongheon.kim.cs@yonsei.ac.kr</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a master's student in the Dependable Computing Lab at Yonsei University,
+        working on dependable systems and adversarial robustness.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <div class="tag-list">
+        <span class="tag">Dependable Systems</span>
+        <span class="tag">Adversarial Robustness</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="what">
+          <strong>M.S. in Computer Science &amp; Engineering</strong>
+          <span>Yonsei University, Dependable Computing Lab</span>
+        </div>
+        <div class="when">2026.3 &ndash; Present</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>B.S. in Weapon System Engineering</strong>
+          <span>Korea Military Academy</span>
+        </div>
+        <div class="when">2016.2 &ndash; 2020.3</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <p class="placeholder">No publications yet &mdash; check back soon.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p class="placeholder">No projects listed yet &mdash; check back soon.</p>
+    </section>
+
+    <footer>
+      &copy; 2026 Jeongheon Kim &middot; <a href="mailto:jeongheon.kim.cs@yonsei.ac.kr">jeongheon.kim.cs@yonsei.ac.kr</a>
+    </footer>
+
+  </div>
+</body>
+</html>
